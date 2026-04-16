@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact • Personal Portfolio</title>
+  <meta name="description" content="Contact the developer" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <script src="../../assets/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="../../">
+        <span class="mark" aria-hidden="true"></span>
+        <span>
+          <strong>Divine Emmanuel Tanga</strong>
+          <span>Mobile &amp; Web Developer</span>
+        </span>
+      </a>
+
+      <nav class="nav" data-nav aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="../projects/">Projects</a>
+        <a href="../about/">About</a>
+        <a href="./" aria-current="page">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open menu">Menu</button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle theme">Light</button>
+        <a class="btn btn-primary" href="../../#projects">View work</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="card">
+          <span class="kicker">Contact</span>
+          <h1>Let’s build something.</h1>
+          <p class="lead">This is a front-end only contact form with validation.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="mailto:divineemmanue214@gmail.com">Email me</a>
+            <a class="btn btn-ghost" href="../../">Back home</a>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h2 style="margin:0">Details</h2>
+          <p class="lead">Fastest way to reach me:</p>
+          <div class="grid" style="margin-top:12px">
+            <div class="project"><h3>Email</h3><p><a href="mailto:divineemmanue214@gmail.com">divineemmanue214@gmail.com</a></p></div>
+            <div class="project"><h3>Phone</h3><p><a href="tel:+13653845983">+1 365 384 5983</a></p></div>
+            <div class="project"><h3>GitHub profile</h3><p><a href="https://github.com/penueldivina237-lgtm" target="_blank" rel="noreferrer">github.com/penueldivina237-lgtm</a></p></div>
+            <div class="project"><h3>GitHub org</h3><p><a href="https://github.com/globalix-group" target="_blank" rel="noreferrer">github.com/globalix-group</a></p></div>
+            <div class="project">
+              <h3>Videos</h3>
+              <ul style="margin:0;color:var(--muted);padding-left:18px">
+                <li><a href="https://youtu.be/AgEG9IT_TPw" target="_blank" rel="noreferrer">youtu.be/AgEG9IT_TPw</a></li>
+                <li><a href="https://youtu.be/1ImkVgovg9M" target="_blank" rel="noreferrer">youtu.be/1ImkVgovg9M</a></li>
+                <li><a href="https://youtube.com/shorts/6hMq_6Sjiu0" target="_blank" rel="noreferrer">shorts/6hMq_6Sjiu0</a></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-2">
+          <div class="project">
+            <h2 style="margin:0 0 6px">Send a message</h2>
+            <p class="lead">No backend — demo only.</p>
+            <div class="notice" data-form-notice aria-hidden="true" role="status"></div>
+            <form class="form" data-contact-form>
+              <div class="field">
+                <label class="label" for="name">Name</label>
+                <input class="input" id="name" name="name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label class="label" for="email">Email</label>
+                <input class="input" id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label class="label" for="message">Message</label>
+                <textarea class="textarea" id="message" name="message" required></textarea>
+                <div class="small">Minimum 10 characters.</div>
+              </div>
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+          </div>
+
+          <div class="project">
+            <h2 style="margin:0 0 6px">What to include</h2>
+            <p class="lead">To get a fast quote.</p>
+            <ul style="margin:10px 0 0;color:var(--muted);padding-left:18px">
+              <li>Website type + pages needed</li>
+              <li>Deadline</li>
+              <li>Links you like (inspiration)</li>
+              <li>Any required features</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <div style="font-weight:950">Divine Emmanuel Tanga</div>
+          <div class="small">Developer portfolio • Front-end demo</div>
+        </div>
+        <div class="footer-links" aria-label="Footer">
+          <a href="../projects/">Projects</a>
+          <a href="../about/">About</a>
+          <a href="./">Contact</a>
+        </div>
+      </div>
+      <div class="small">© <span data-year></span> • Built with HTML/CSS/JS</div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Portfolio</title>
+  <meta name="description" content="Professional developer portfolio — projects, skills, and contact." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="./">
+        <span class="mark" aria-hidden="true"></span>
+        <span>
+          <strong>Divine Emmanuel Tanga</strong>
+          <span>Mobile &amp; Web Developer</span>
+        </span>
+      </a>
+
+      <nav class="nav" data-nav aria-label="Primary">
+        <a href="./" aria-current="page">Home</a>
+        <a href="pages/projects/">Projects</a>
+        <a href="pages/about/">About</a>
+        <a href="pages/contact/">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open menu">Menu</button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle theme">Light</button>
+        <a class="btn btn-primary" href="#projects">View work</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="card">
+          <span class="kicker">Available for freelance • Remote</span>
+          <h1>Building fast, clean, modern web experiences.</h1>
+          <p class="lead">I design and develop responsive websites with polished UI, accessible components, and production-ready JavaScript.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#contact">Hire me</a>
+            <a class="btn btn-ghost" href="pages/projects/">Browse projects</a>
+          </div>
+
+          <div class="section" style="padding-bottom:0">
+            <div class="section-head">
+              <div>
+                <h2>Skills</h2>
+                <p class="lead">A quick snapshot of what I ship.</p>
+              </div>
+            </div>
+            <div class="grid grid-3">
+              <div class="skill"><strong>UI / UX</strong><span class="pill">Design systems</span></div>
+              <div class="skill"><strong>Front-end</strong><span class="pill">HTML • CSS • JS</span></div>
+              <div class="skill"><strong>Performance</strong><span class="pill">Lighthouse-ready</span></div>
+              <div class="skill"><strong>Accessibility</strong><span class="pill">WCAG mindset</span></div>
+              <div class="skill"><strong>Tooling</strong><span class="pill">Git • VS Code</span></div>
+              <div class="skill"><strong>Deployment</strong><span class="pill">Netlify • Pages</span></div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h2 style="margin:0">Highlights</h2>
+          <p class="lead">A portfolio that feels premium.</p>
+          <div class="grid" style="margin-top:12px">
+            <div class="project">
+              <h3>Dark / light mode</h3>
+              <p>Saved to localStorage and respects OS preference.</p>
+            </div>
+            <div class="project">
+              <h3>Smooth scroll</h3>
+              <p>Built in with accessible defaults.</p>
+            </div>
+            <div class="project">
+              <h3>Project modal</h3>
+              <p>Click “View details” for a clean modal popup.</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Projects</h2>
+            <p class="lead">Realistic demos you can expand into production sites.</p>
+          </div>
+          <a class="btn btn-ghost" href="pages/projects/">All projects</a>
+        </div>
+        <div class="grid grid-3" data-projects></div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Testimonials</h2>
+            <p class="lead">Sample feedback (realistic placeholder).</p>
+          </div>
+        </div>
+        <div class="grid grid-3">
+          <div class="project">
+            <h3>“Fast, clean, and responsive.”</h3>
+            <p>“Our landing page conversions improved within a week.”</p>
+            <p class="small">— Product Lead, SaaS Startup</p>
+          </div>
+          <div class="project">
+            <h3>“Great communication.”</h3>
+            <p>“Clear updates, strong UI taste, and delivered on time.”</p>
+            <p class="small">— Founder, Local Business</p>
+          </div>
+          <div class="project">
+            <h3>“Reliable and detail-oriented.”</h3>
+            <p>“Edge cases were handled and the site loads fast.”</p>
+            <p class="small">— Agency PM</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="media">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Media</h2>
+            <p class="lead">Selected demos, walkthroughs, and shorts.</p>
+          </div>
+          <a class="btn btn-ghost" href="https://github.com/penueldivina237-lgtm" target="_blank" rel="noreferrer">GitHub profile</a>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="project">
+            <h3>Video</h3>
+            <p>Walkthrough / demo.</p>
+            <div class="media" style="margin-top:10px">
+              <iframe title="YouTube video" src="https://www.youtube-nocookie.com/embed/AgEG9IT_TPw" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn btn-primary" href="https://youtu.be/AgEG9IT_TPw" target="_blank" rel="noreferrer">Watch on YouTube</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Video</h3>
+            <p>Walkthrough / demo.</p>
+            <div class="media" style="margin-top:10px">
+              <iframe title="YouTube video" src="https://www.youtube-nocookie.com/embed/1ImkVgovg9M" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn btn-primary" href="https://youtu.be/1ImkVgovg9M" target="_blank" rel="noreferrer">Watch on YouTube</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Short</h3>
+            <p>Quick UI / feature clip.</p>
+            <div class="media" style="margin-top:10px">
+              <iframe title="YouTube short" src="https://www.youtube-nocookie.com/embed/6hMq_6Sjiu0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn btn-primary" href="https://youtube.com/shorts/6hMq_6Sjiu0" target="_blank" rel="noreferrer">Watch on YouTube</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Link</h3>
+            <p>More content.</p>
+            <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn btn-primary" href="https://github.com/penueldivina237-lgtm" target="_blank" rel="noreferrer">Open GitHub</a>
+              <a class="btn btn-ghost" href="pages/contact/">Contact</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Contact</h2>
+            <p class="lead">Tell me what you’re building. No backend required.</p>
+          </div>
+        </div>
+        <div class="grid grid-2">
+          <div class="project">
+            <h3>Work with me</h3>
+            <p>Websites, landing pages, UI refresh, and front-end features.</p>
+            <div style="height:8px"></div>
+            <p class="small">Email: <a href="mailto:divineemmanue214@gmail.com">divineemmanue214@gmail.com</a> • Phone: <a href="tel:+13653845983">+1 365 384 5983</a> • GitHub: <a href="https://github.com/penueldivina237-lgtm" target="_blank" rel="noreferrer">github.com/penueldivina237-lgtm</a> • Location: Remote</p>
+          </div>
+          <div class="project">
+            <h3>Send a message</h3>
+            <div class="notice" data-form-notice aria-hidden="true" role="status"></div>
+            <form class="form" data-contact-form>
+              <div class="field">
+                <label class="label" for="name">Name</label>
+                <input class="input" id="name" name="name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label class="label" for="email">Email</label>
+                <input class="input" id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label class="label" for="message">Message</label>
+                <textarea class="textarea" id="message" name="message" required></textarea>
+                <div class="small">Demo form with validation. No data is sent.</div>
+              </div>
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-backdrop" data-modal-backdrop aria-hidden="true" role="dialog" aria-label="Project details">
+      <div class="modal">
+        <div class="modal-header">
+          <div class="modal-title" data-modal-title>Project</div>
+          <button class="icon-btn" type="button" data-close-modal aria-label="Close">Close</button>
+        </div>
+        <div data-modal-body></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <div style="font-weight:950">Divine Emmanuel Tanga</div>
+          <div class="small">Developer portfolio • Front-end demo</div>
+        </div>
+        <div class="footer-links" aria-label="Footer">
+          <a href="pages/projects/">Projects</a>
+          <a href="pages/about/">About</a>
+          <a href="pages/contact/">Contact</a>
+        </div>
+      </div>
+      <div class="small">© <span data-year></span> • Built with HTML/CSS/JS</div>
+    </div>
+  </footer>
+</body>
+</html>

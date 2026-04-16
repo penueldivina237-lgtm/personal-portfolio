@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects • Personal Portfolio</title>
+  <meta name="description" content="Projects and case studies" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <script src="../../assets/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="../../">
+        <span class="mark" aria-hidden="true"></span>
+        <span>
+          <strong>Divine Emmanuel Tanga</strong>
+          <span>Mobile &amp; Web Developer</span>
+        </span>
+      </a>
+
+      <nav class="nav" data-nav aria-label="Primary">
+        <a href="../../">Home</a>
+        <a href="./" aria-current="page">Projects</a>
+        <a href="../about/">About</a>
+        <a href="../contact/">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open menu">Menu</button>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle theme">Light</button>
+        <a class="btn btn-primary" href="../../#contact">Hire me</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="card">
+          <span class="kicker">Projects</span>
+          <h1>Case-study style demos.</h1>
+          <p class="lead">Click “View details” to open the modal.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="../../#projects">Jump to projects</a>
+            <a class="btn btn-ghost" href="../../">Back home</a>
+          </div>
+        </div>
+        <aside class="card">
+          <h2 style="margin:0">What I focus on</h2>
+          <p class="lead">Speed, clarity, and UI quality.</p>
+          <div class="grid" style="margin-top:12px">
+            <div class="project"><h3>Conversion</h3><p>Clear CTAs, layout hierarchy, readable typography.</p></div>
+            <div class="project"><h3>Performance</h3><p>Lightweight CSS/JS with good defaults.</p></div>
+            <div class="project"><h3>Accessibility</h3><p>Keyboard-friendly components and good contrast.</p></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Projects grid</h2>
+            <p class="lead">Demo data lives in JavaScript.</p>
+          </div>
+        </div>
+        <div class="grid grid-3" data-projects></div>
+      </div>
+    </section>
+
+    <div class="modal-backdrop" data-modal-backdrop aria-hidden="true" role="dialog" aria-label="Project details">
+      <div class="modal">
+        <div class="modal-header">
+          <div class="modal-title" data-modal-title>Project</div>
+          <button class="icon-btn" type="button" data-close-modal aria-label="Close">Close</button>
+        </div>
+        <div data-modal-body></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <div style="font-weight:950">Divine Emmanuel Tanga</div>
+          <div class="small">Developer portfolio • Front-end demo</div>
+        </div>
+        <div class="footer-links" aria-label="Footer">
+          <a href="./">Projects</a>
+          <a href="../about/">About</a>
+          <a href="../contact/">Contact</a>
+        </div>
+      </div>
+      <div class="small">© <span data-year></span> • Built with HTML/CSS/JS</div>
+    </div>
+  </footer>
+</body>
+</html>
