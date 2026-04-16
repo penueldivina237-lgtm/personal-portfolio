@@ -1,0 +1,85 @@
+:root {
+  --bg: #f7f8fc;
+  --text: #17223b;
+  --muted: #415a77;
+  --accent: #1d4ed8;
+  --card: #ffffff;
+  --shadow: 0 10px 30px rgba(23, 34, 59, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.hero,
+main {
+  width: min(900px, 92vw);
+  margin-inline: auto;
+}
+
+.hero {
+  padding: 4.5rem 0 2rem;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+h1 {
+  margin: 0.2rem 0;
+  font-size: clamp(2rem, 6vw, 3rem);
+}
+
+.tagline {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  max-width: 40rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border-radius: 0.6rem;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 0.8rem;
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
